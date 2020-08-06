@@ -1,3 +1,3 @@
-var response = require("./methods.js");
+var response = require("./methods");
 
 console.log(response);
