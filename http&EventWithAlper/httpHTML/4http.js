@@ -6,7 +6,7 @@ var server = http.createServer(function (req, res) {
   fs.readFile("index.html", function (err, data) {
     //Server response:
     res.write(data);
-    res.end("Server Message is finished here!!!");
+    res.end("Server Message is ending here!!!");
   });
 });
 
